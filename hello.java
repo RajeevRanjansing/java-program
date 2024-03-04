@@ -1,4 +1,4 @@
-  java program to print Hello world
+  //java program to print Hello world
 
 class hello
 {
@@ -9,7 +9,7 @@ class hello
 }
 
 
-java program to add two number(1st method)
+//java program to add two number(1st method)
 
 class hello
 {
@@ -19,7 +19,7 @@ class hello
 	}
 }
 
-java program to add two number(2nd method)
+//java program to add two number(2nd method)
 
 class hello
 {
