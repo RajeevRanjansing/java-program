@@ -141,6 +141,7 @@ class newjava{
 }
 
 
+//java program for addition,subtraction,multiplication,division
 class newjava{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -156,6 +157,8 @@ class newjava{
     }
 }
 
+
+//switch case statement
 class newjava{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -186,12 +189,11 @@ class newjava{
             case 12: System.out.print("december");
             break;
             default: System.out.print("invalid number");
-        
-            
-        }
+	}
     }
 }
 
+//print nuumber between 1 to 10 using for-loop
 class newjava{
     public static void main(String args[]){
         int i;
@@ -201,6 +203,8 @@ class newjava{
     }
 }
 
+
+//java program to print number between 1 to 10 using while loop
 class newjava{
     public static void main(String args[]){
         int i=1;
@@ -211,6 +215,7 @@ class newjava{
     }
 }
 
+//java program to print number between 1 to 10 using do while loop
 class newjava{
     public static void main(String args[]){
         int i=1;
@@ -222,6 +227,8 @@ class newjava{
     }
 }
 
+
+//java program to print sum of n number
 class newjava{
     public static void main(String args[]){
         int sum=0,i;
@@ -235,6 +242,7 @@ class newjava{
     }
 }
 
+//java program to print table of any numb
 class newjava{
     public static void main(String args[]){
         int i,n;
@@ -245,10 +253,10 @@ class newjava{
             n=a*i;
         System.out.println(n);
         }
-        
     }
 }
 
+//java program to print pattern(*)
 class newjava{
     public static void main(String args[]){
         int i;
@@ -282,6 +290,7 @@ class newjava{
     }
 }
 
+//java program to print pattern
 class newjava{
     public static void main(String args[]){
         int i,j;
@@ -295,23 +304,6 @@ class newjava{
                 }
             }
            System.out.println();
-        }
-    }
-}
-
-class newjava{
-    public static void main(String args[]){
-        int i,j;
-        for(i=1;i<=4;i++){
-            for(j=1;j<=5;j++){
-                if(i==1 || i==4 || j==1 || j==5){
-                    System.out.print("*");
-                }
-                else{
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
         }
     }
 }
