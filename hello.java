@@ -105,7 +105,7 @@ class hello
 	}
 }
 
-//java program to find which is greater
+//java program to find which is greater between two number
 
 class hello{
 	public static void main(String args[])
@@ -118,7 +118,7 @@ class hello{
 	}
 }
 
-
+//java program to find which is greater among three number
 class newjava{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
