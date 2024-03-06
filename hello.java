@@ -141,3 +141,193 @@ class newjava{
 }
 
 
+class newjava{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter 1st number");
+        int a=sc.nextInt();
+        System.out.print("enter 2nd number");
+        int b=sc.nextInt();
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        switch(a){
+            case 1: System.out.print("january");
+            break;
+            case 2: System.out.print("february");
+            break;
+            case 3: System.out.print("march");
+            break;
+            case 4: System.out.print("april");
+            break;
+            case 5: System.out.print("may");
+            break;
+            case 6: System.out.print("june");
+            break;
+            case 7: System.out.print("july");
+            break;
+            case 8: System.out.print("august");
+            break;
+            case 9: System.out.print("september");
+            break;
+            case 10: System.out.print("october");
+            break;
+            case 11: System.out.print("november");
+            break;
+            case 12: System.out.print("december");
+            break;
+            default: System.out.print("invalid number");
+        
+            
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i;
+        for(i=1;i<=10;i++){
+            System.out.println(i);
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i=1;
+        while(i<=10){
+            System.out.println(i);
+            i++;
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i=1;
+        do{
+            System.out.println(i);
+            i++;
+        }
+        while(i<=10);
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int sum=0,i;
+      Scanner sc=new Scanner(System.in);
+      System.out.print("enter a number");
+      int a=sc.nextInt();
+      for(i=0;i<=a;i++){
+        sum=sum+i;
+      }
+      System.out.print(sum);
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,n;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the number you want to find table");
+        int a=sc.nextInt();
+        for(i=1;i<=10;i++){
+            n=a*i;
+        System.out.println(n);
+        }
+        
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i;
+        for(i=1;i<=5;i++){
+                System.out.print("*");
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=4;i++){
+            for(j=1;j<=5;j++){
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++){
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=4;i++){
+            for(j=1;j<=5;j++){
+                if(i == 1 || j == 1 || i == 4 || j == 5){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+           System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=4;i++){
+            for(j=1;j<=5;j++){
+                if(i==1 || i==4 || j==1 || j==5){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;                                                          //    *
+        for(i=1;i<=4;i++){                                                //   **
+            for(j=1;j<=4-i;j++){                                          //  ***
+            System.out.print(" ");                                        // ****
+            }
+            for(j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
