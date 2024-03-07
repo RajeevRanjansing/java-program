@@ -323,3 +323,189 @@ class newjava{
     }
 }
 
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=4;i>=1;i--){
+            for(j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int number=1,i,j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                System.out.print(number);
+                number++;
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                int sum=i+j;
+                if(sum%2==0){
+                    System.out.print("1 ");
+                }
+                else{
+                    System.out.print("0 ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the last even number");
+        int a=sc.nextInt();
+        int i;
+        for(i=1;i<=a;i++){
+            if(i%2==0)
+            System.out.println(i);
+        }
+    }
+}
+
+
+java program to print pattern
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;                                                
+         for(i=1;i<=5;i++){                                                       
+             for(j=1;j<=5;j++){
+                System.out.print("*");}
+             System.out.println();   
+        }
+    }
+}
+
+java program to print pattern
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++)
+            if(i==1 || j==1 || i==5|| j==5){
+                System.out.print("*");
+            }
+            else{
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=5;i>=1;i--){
+            for(j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+
+
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=4;i++){
+            for(j=1;j<=4-i;j++){
+                System.out.print(" ");
+            }
+            for(j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=5;i>=1;i--){
+            for(j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        int number=1;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                System.out.print(number);
+                number++;
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        int sum=0;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                sum=i+j;
+                if(sum % 2==0){
+                    System.out.print("1 ");
+                }
+                else{
+                    System.out.print("0 ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+class newjava{
+    public static void main(String args[]){
+        int i,j;
+        for(i=1;i<=8;i++)
+{
+    for(j=1;j<=i;j++){
+        
+    }
+}    }
+}
