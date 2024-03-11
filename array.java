@@ -148,4 +148,127 @@ class array{
         }
     }
 }        
+
+//find the value of x and y
+
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the value of a:");
+        float a=sc.nextFloat();
+        
+        System.out.print("enter the value of b:");
+        float b=sc.nextFloat();
+        
+        System.out.print("enter the value of c:");
+        float c=sc.nextFloat();
+        
+        System.out.print("enter the value of d:");
+        float d=sc.nextFloat();
+
+        System.out.print("enter the value of e:");
+        float e=sc.nextFloat();
+
+        System.out.print("enter the value of f:");
+        float f=sc.nextFloat();
+
+        float x=((e*d)-(b*f))/((a*d)-(b*c));
+        float y=((a*f)-(e*c))/((a*d)-(b*c));
+
+        System.out.println("value of x is " + x);
+        System.out.print("value of y is " + y);    
+    }
+}        
     
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the value in meter:");
+        float meter=sc.nextFloat();
+        double foot= meter * 3.2808;
+        System.out.print("The value in foot is " + foot);
+    }
+}
+
+//java program to find Body mass index
+
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the weight in pounds:");
+        float weight=sc.nextFloat();
+        System.out.print("enter the height in inches:");
+        float height=sc.nextFloat();
+        double kg=weight*0.45359237;
+        double meter=height*0.0254;
+        double bmi=kg/(meter*meter);
+        System.out.print("bmi is " + bmi);
+    
+    }
+}
+
+//sum of even number between 0 to 10
+
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        int sum=0;
+        //Scanner sc=new Scanner(System.in);
+        for(int i=0;i<=10;i++){
+            if(i%2==0){
+                System.out.println(i);
+                 sum=sum+i;
+            }
+        }
+        System.out.print(sum);
+    }
+}
+
+
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        int sum=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the size of an array: ");
+        int size=sc.nextInt();
+        int number[]=new int[size];
+
+        for(int i=0;i<size;i++){
+            number[i]=sc.nextInt();
+            sum=sum+number[i];
+        }
+        System.out.print(sum);
+         }
+}
+
+
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter number of row:");
+        int row=sc.nextInt();
+        System.out.print("enter number of column:");
+        int column=sc.nextInt();
+        int[][] matrix=new int[row][column];
+
+        for(int i=0;i<row;i++){
+            for(int j=0;j<column;j++){
+                matrix[i][j]=sc.nextInt();
+            }
+        }
+        
+        for(int i=0;i<row;i++){
+            for(int j=0;j<column;j++){
+                System.out.print(matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
