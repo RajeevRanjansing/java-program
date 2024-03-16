@@ -271,4 +271,60 @@ class array{
     }
 }
 
+import java.util.*;
+// class array{
+//     public static void main(String args[]){
+//         Scanner sc=new Scanner(System.in);
+//         System.out.print("enter the number of row: ");
+//         int row=sc.nextInt();
+//         System.out.print("enter the number of column: ");
+//         int column=sc.nextInt();
+//         int[][]matrix=new int[row][column];
+
+    
+//         for(int i=0;i<row;i++){
+//             for(int j=0;j<column;j++){
+//                 matrix[i][j]=sc.nextInt();
+//               }
+//         }
+//         int x=sc.nextInt();
+
+//         for(int i=0;i<row;i++){
+//             for(int j=0;j<column;j++){
+//                 if(matrix[i][j]==x){
+//             System.out.print(" "+ i + " " + j);
+//             }
+//         }
+        
+//         }
+//     }
+// }
+
+
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        int number[]=new Int[size];
+
+        for(int i=0;i<size;i++){
+            number[i]=sc.nextInt();
+        }
+            int max=Integer.MIN_VALUE;
+            int min=Integer.MAX_VALUE;
+
+            for(int i=0;i<number.length;i++){
+                if(number[i]<min){
+                    min=number[i];
+                }
+                if(number[i]>max){
+                    max=number[i];
+                }
+            }
+            System.out.println("largest number is "+ max);
+            System.out.println("largest number is "+ min);
+    }
+}
+
 
