@@ -327,4 +327,29 @@ class array{
     }
 }
 
+//java program to print diagonal of an array
 
+import java.util.*;
+class array{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the number of row: ");
+        int row=sc.nextInt();
+        System.out.print("enter the number of column: ");
+        int column=sc.nextInt();
+        int [][] a=new int[row][column];
+
+        for(int i=0;i<row;i++){
+            for(int j=0;j<column;j++){
+               a[i][j]=sc.nextInt();
+            }
+        }
+        for(int i=0;i<row;i++){
+            for(int j=0;j<column;j++){
+            if(a[i]==a[j]){
+                    System.out.print(a[i][j]);
+                  }
+            }
+        }
+    }
+}
